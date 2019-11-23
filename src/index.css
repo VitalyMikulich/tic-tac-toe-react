@@ -1,6 +1,8 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
   
 ol, ul {
@@ -59,4 +61,39 @@ ol, ul {
 
 .moves:hover {
   background-color: #ddd;
+}
+
+form {
+  margin: 10px 0;
+  display: flex;
+  width: 159px;
+  flex-flow: column;
+}
+
+form input {
+  margin: 5px 0;
+}
+
+.play {
+  text-align: center;
+  width: 75px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.newGame-div {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
 }
